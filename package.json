@@ -1,0 +1,52 @@
+{
+  "name": "markdownlm-mcp",
+  "version": "2.0.0",
+  "mcpName": "io.github.markdownlm/mcp",
+  "description": "MCP server for MarkdownLM — AI Agent Memory & Validation Layer",
+  "type": "module",
+  "bin": {
+    "markdownlm-mcp": "./dist/index.js"
+  },
+  "main": "dist/index.js",
+  "author": "MarkdownLM <hello@markdownlm.com>",
+  "homepage": "https://markdownlm.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markdownlm/mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markdownlm/mcp/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "knowledge-base",
+    "ai",
+    "markdownlm",
+    "cursor",
+    "claude",
+    "windsurf",
+    "copilot",
+    "architecture",
+    "code-review",
+    "validation"
+  ],
+  "license": "MIT"
+}
