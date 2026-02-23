@@ -6,7 +6,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and
 
 ---
 
-## [2.0.0] — 2026-02-21
+## [3.0.0] — 2026-02-23
 
 ### Purpose of MarkdownLM MCP Server
 This server acts as the persistent memory and governance layer between your team and AI coding agents (like Cursor, Claude, or Copilot). It bridges AI directly to your private knowledge base, ensuring agents validate code against documented patterns and architectural rules *before* proposing changes.

@@ -42,7 +42,7 @@ Pick your tool below. All use the **same npm package** — one codebase, every p
 #### Claude Code (CLI)
 
 ```bash
-claude mcp add markdownlm -e MARKDOWNLM_API_KEY=mdlm_your_key_here -- npx -y markdownlm-mcp
+claude mcp add markdownlm -e MARKDOWNLM_API_KEY=mdlm_your_key_here -e MARKDOWNLM_API_URL=https://markdownlm.com -- npx -y markdownlm-mcp
 ```
 
 Or manually edit `~/.claude/claude_code_config.json`:
@@ -54,7 +54,29 @@ Or manually edit `~/.claude/claude_code_config.json`:
       "command": "npx",
       "args": ["-y", "markdownlm-mcp"],
       "env": {
-        "MARKDOWNLM_API_KEY": "mdlm_your_key_here"
+        "MARKDOWNLM_API_KEY": "mdlm_your_key_here",
+        "MARKDOWNLM_API_URL": "https://markdownlm.com"
+      }
+    }
+  }
+}
+```
+
+---
+
+#### Claude Desktop
+
+`~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%/Claude/claude_desktop_config.json` (Windows):
+
+```json
+{
+  "mcpServers": {
+    "markdownlm": {
+      "command": "npx",
+      "args": ["-y", "markdownlm-mcp"],
+      "env": {
+        "MARKDOWNLM_API_KEY": "mdlm_your_key_here",
+        "MARKDOWNLM_API_URL": "https://markdownlm.com"
       }
     }
   }
@@ -74,7 +96,8 @@ Or manually edit `~/.claude/claude_code_config.json`:
       "command": "npx",
       "args": ["-y", "markdownlm-mcp"],
       "env": {
-        "MARKDOWNLM_API_KEY": "mdlm_your_key_here"
+        "MARKDOWNLM_API_KEY": "mdlm_your_key_here",
+        "MARKDOWNLM_API_URL": "https://markdownlm.com"
       }
     }
   }
@@ -94,7 +117,8 @@ Or manually edit `~/.claude/claude_code_config.json`:
       "command": "npx",
       "args": ["-y", "markdownlm-mcp"],
       "env": {
-        "MARKDOWNLM_API_KEY": "mdlm_your_key_here"
+        "MARKDOWNLM_API_KEY": "mdlm_your_key_here",
+        "MARKDOWNLM_API_URL": "https://markdownlm.com"
       }
     }
   }
@@ -103,7 +127,28 @@ Or manually edit `~/.claude/claude_code_config.json`:
 
 ---
 
-#### VS Code
+#### Cline (VS Code)
+
+In the Cline extension settings (MCP Servers):
+
+```json
+{
+  "mcpServers": {
+    "markdownlm": {
+      "command": "npx",
+      "args": ["-y", "markdownlm-mcp"],
+      "env": {
+        "MARKDOWNLM_API_KEY": "mdlm_your_key_here",
+        "MARKDOWNLM_API_URL": "https://markdownlm.com"
+      }
+    }
+  }
+}
+```
+
+---
+
+#### VS Code (Native/Extension)
 
 `.vscode/mcp.json` in your project root:
 
@@ -115,7 +160,8 @@ Or manually edit `~/.claude/claude_code_config.json`:
       "command": "npx",
       "args": ["-y", "markdownlm-mcp"],
       "env": {
-        "MARKDOWNLM_API_KEY": "mdlm_your_key_here"
+        "MARKDOWNLM_API_KEY": "mdlm_your_key_here",
+        "MARKDOWNLM_API_URL": "https://markdownlm.com"
       }
     }
   }
